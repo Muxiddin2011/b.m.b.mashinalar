@@ -38,7 +38,7 @@ nav{
 }
 .card{
    border: 2px solid green;
-    width: 250px;
+    width: 240px;
     height: 295px;
     float: left;
     margin-left: 2px;
@@ -55,7 +55,7 @@ img{
 
 
 .markalarrasmi{
-    width: 220px;
+    width: 210px;
     height: 182px;
     margin-left: 2px;
     margin-top: 2px;
@@ -82,7 +82,7 @@ img{
 }
 .d6{
     width: 95%;
-    height: 1550px;
+    height: 1600px;
     border: 3px solid black;
 }
 .malumot{
