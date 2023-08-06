@@ -63,7 +63,7 @@ img{
     border: 3px solid green;
 }
 .matn{
-    margin-left: 115px;
+    margin-left: 95px;
     margin-top: 150px;
 }
 .d5{
@@ -82,7 +82,7 @@ img{
 }
 .d6{
     width: 95%;
-    height: 1600px;
+    height: 2050px;
     border: 3px solid black;
 }
 .malumot{
@@ -110,13 +110,13 @@ h3{
     
     }
     .card{
-        margin-left: 40px;
+        margin-left: 35px;
     }
     .d4{
         height: 2500px;
     }
     .markalarrasmi{
-        margin-left: 45px;
+        margin-left: 40px;
     }
     nav{
         position: sticky;
