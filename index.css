@@ -33,7 +33,7 @@ nav{
 }
 .d3{
     border: 3px solid black;
-    width: 100%;
+    width: 95%;
     height: 750px;
 }
 .card{
@@ -49,7 +49,7 @@ img{
 }
 .d4{
     border: 3px solid black;
-    width: 100%;
+    width: 95%;
     height: 775px;
 }
 
@@ -67,7 +67,7 @@ img{
     margin-top: 150px;
 }
 .d5{
-    width: 384px;
+    width: 95%;
     height: 450px;
     border: 3px solid black;
     margin-top: -6px;
@@ -81,8 +81,8 @@ img{
     color: red;
 }
 .d6{
-    width: 384px;
-    height: 1400px;
+    width: 95%;
+    height: 1430px;
     border: 3px solid black;
 }
 .malumot{
@@ -110,13 +110,13 @@ h3{
     
     }
     .card{
-        margin-left: 65px;
+        margin-left: 55px;
     }
     .d4{
         height: 2500px;
     }
     .markalarrasmi{
-        margin-left: 80px;
+        margin-left: 75px;
     }
     nav{
         position: sticky;
