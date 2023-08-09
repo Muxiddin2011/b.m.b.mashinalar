@@ -103,7 +103,7 @@ h3{
         text-align: center;
     }
     .d2{
-        width: 200px;
+        width: 230px;
     }
     .d3{
         height: 3830px;
@@ -133,20 +133,20 @@ h3{
         text-align: center;
     }
     .d2{
-        width: 200px;
+        /* width: 200px; */
     }
     .d3{
         height: 3830px;
     
     }
     .card{
-        margin-left: 35px;
+        margin-left: 20px;
     }
     .d4{
         height: 2500px;
     }
     .markalarrasmi{
-        margin-left: 20px;
+        margin-left: 50px;
     }
     nav{
         position: sticky;
