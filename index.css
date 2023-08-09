@@ -123,3 +123,39 @@ h3{
         top: 0px;   
     }
 }
+@media screen and (max-width: 350px) {
+    header{
+        padding: 100px 50px 100px 10px;
+    }
+    .menyu{
+        margin-left: 0px;
+        display: block;
+        text-align: center;
+    }
+    .d2{
+        width: 200px;
+    }
+    .d3{
+        height: 3830px;
+    
+    }
+    .card{
+        margin-left: 30px;
+    }
+    .d4{
+        height: 2500px;
+    }
+    .markalarrasmi{
+        margin-left: 37px;
+    }
+    nav{
+        position: sticky;
+        top: 0px;   
+    }
+    .d6{
+        height: 2300px;
+    }
+    .video{
+         margin-left: 110px; 
+    }
+}
