@@ -9,7 +9,7 @@ header{
 }
 nav{
     padding: 15px;
-    background-color: rgba(128, 255, 0);
+    background-color: rgba(128, 255, 0  );
     position: sticky;
     top: 0px;
 }
@@ -134,6 +134,7 @@ h3{
     }
     .menyu2{
         display: block;
+        border: 2px solid red;
     }
     .d2{
         width: 100%;
@@ -165,6 +166,9 @@ h3{
         display: block;
         text-align: center;
     }
+    .menyu2{
+        border: 2px solid blue;
+    }
     .d3{
         height: 3830px;
     
@@ -187,5 +191,15 @@ h3{
     }
     .video{
          margin-left: 10px; 
+    }
+}
+@media screen and (max-width: 300px) {
+    .menyu2{
+        border: 2px solid green;
+    }
+}
+@media screen and (max-width: 250px) {
+    .menyu2{
+        border: 2px solid yellow;
     }
 }
