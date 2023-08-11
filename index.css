@@ -161,6 +161,12 @@ h3{
     header{
         padding: 100px 50px 100px 10px;
     }
+    nav{
+        animation: anime 3s forwards;
+        display: none;
+        position: absolute;
+        
+    }
     .menyu{
         margin-left: 0px;
         display: block;
@@ -168,6 +174,7 @@ h3{
     }
     .menyu2{
         border: 2px solid blue;
+        display: block;
     }
     .d3{
         height: 3830px;
