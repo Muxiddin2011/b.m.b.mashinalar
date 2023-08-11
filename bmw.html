@@ -12,12 +12,14 @@
         <h1>MASHINALAR KALLEKSIYASI</h1>
         <p>Bizni saytimizda xoxlagan mashinagiz haqidagi malumotlarni topishinggiz mumkin</p>
     </header>
-    <nav>
+    <button class="menyu2" onclick="document.getElementById('nav').style.display = 'block';">Menyu</button>
+    <nav id="nav">
+        <button onclick="document.getElementById('nav').style.display = 'none';" class="x">X</button>
         <a class="menyu" href="index.html">Bosh menyu</a>
         <a class="menyu" href="#d3">Modellar</a>
         <a class="menyu" href="#d4">Markalar</a>
         <a class="menyu" href="#video">Video</a>
-        <a class="menyu" href="#malumotlar">Ma'lumotlar</a>                                         
+        <a class="menyu" href="#malumotlar" >Ma'lumotlar</a>                                         
     </nav>
     <div class="d1">
         <div class="d2">
@@ -162,6 +164,5 @@
             </h3> 
         </div>
     </div> 
-    
 </body>
 </html>             

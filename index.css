@@ -8,16 +8,29 @@ header{
     background-color: rgb(253, 255, 137);
 }
 nav{
-    padding: 10px;
-    background-color: rgba(128, 255, 0, 0.894);
+    padding: 15px;
+    background-color: rgba(128, 255, 0);
     position: sticky;
     top: 0px;
+}
+.menyu2{
+    width: 100%;
+    display: none;
+    position: sticky;
+    top: 0px;
+}
+.x{
+    position: absolute;
+    top: -20px;
+    right: 0px;
+    background-color: red;
 }
 .menyu{
     margin-left: 140px;
     font-size: 20px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     text-decoration: none;
+    padding: 15px;
 }
 .menyu:active{
     background-color: black;
@@ -92,18 +105,38 @@ img{
 h3{
     color: indianred;
 }
+@keyframes anime{
+    from{
+        top: -300px;
+        opacity: 0;
+    }
+    to{
+        top: 20px;
+        opacity: 1;
+
+    }
+}
 
 @media screen and (max-width: 400px) {
     header{
         padding: 100px 50px 100px 10px;
     }
+    nav{
+        animation: anime 3s forwards;
+        display: none;
+        position: absolute;
+        
+    }
     .menyu{
         margin-left: 0px;
-        display: block;
         text-align: center;
+        display: block;
+    }
+    .menyu2{
+        display: block;
     }
     .d2{
-        width: 230px;
+        width: 100%;
     }
     .d3{
         height: 3830px;
@@ -132,9 +165,6 @@ h3{
         display: block;
         text-align: center;
     }
-    .d2{
-        /* width: 200px; */
-    }
     .d3{
         height: 3830px;
     
@@ -146,7 +176,7 @@ h3{
         height: 2500px;
     }
     .markalarrasmi{
-        margin-left: 50px;
+        margin-left: 40px;
     }
     nav{
         position: sticky;
